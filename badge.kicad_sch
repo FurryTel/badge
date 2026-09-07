@@ -1903,6 +1903,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "FurryTel:Simple_Addon_v2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Simple_Addon_v2"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Simple_Addon_v2_0_1"
+				(rectangle
+					(start -7.62 8.89)
+					(end 7.62 -8.89)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Simple_Addon_v2_1_1"
+				(pin input line
+					(at -5.08 13.97 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -13.97 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 13.97 270)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -13.97 90)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 13.97 270)
+					(length 5.08)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -13.97 90)
+					(length 5.08)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico_Debug"
 			(pin_names
 				(offset 0.762)
@@ -3737,6 +3924,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 130.81) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01081774-9ff2-4ee2-bf3b-b6ce3c8f2464")
+	)
+	(wire
+		(pts
 			(xy 180.34 170.18) (xy 193.04 170.18)
 		)
 		(stroke
@@ -3784,6 +3981,16 @@
 			(type default)
 		)
 		(uuid "05511dca-f85c-4319-9937-ba64056ce247")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 48.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0660f707-0d79-4665-9584-0208a3af9614")
 	)
 	(wire
 		(pts
@@ -4117,6 +4324,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51916652-3e70-4514-b296-ffcfd33d823e")
+	)
+	(wire
+		(pts
 			(xy 121.92 85.09) (xy 121.92 95.25)
 		)
 		(stroke
@@ -4187,6 +4404,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 135.89) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c97750-bb35-4b01-8332-30a584e9df50")
+	)
+	(wire
+		(pts
 			(xy 139.7 148.59) (xy 205.74 148.59)
 		)
 		(stroke
@@ -4244,6 +4471,16 @@
 			(type default)
 		)
 		(uuid "72b74094-cf4b-4271-b6cd-bfae13c87127")
+	)
+	(wire
+		(pts
+			(xy 48.26 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735e32ed-fb11-4dc7-8183-628553d9bc28")
 	)
 	(wire
 		(pts
@@ -4417,6 +4654,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 104.14) (xy 57.15 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d8aed7-0b5c-4d73-a0ee-8b4d61c331d3")
+	)
+	(wire
+		(pts
 			(xy 229.87 72.39) (xy 231.14 72.39)
 		)
 		(stroke
@@ -4477,6 +4724,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 99.06) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48cd35c-bae0-48cc-9be9-7dbfc26d6e0f")
+	)
+	(wire
+		(pts
 			(xy 168.91 67.31) (xy 168.91 72.39)
 		)
 		(stroke
@@ -4524,6 +4781,16 @@
 			(type default)
 		)
 		(uuid "b1b82fc1-a37b-40f5-87e6-7becff114a38")
+	)
+	(wire
+		(pts
+			(xy 55.88 99.06) (xy 57.15 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36a79b8-dadb-4aef-a0ea-d9e5694b85f8")
 	)
 	(wire
 		(pts
@@ -4657,6 +4924,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 128.27) (xy 55.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d730ac-706b-4ac2-ad24-ae1fd11f8cd9")
+	)
+	(wire
+		(pts
+			(xy 88.9 135.89) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67e6398-f42e-47f9-bd4b-def6f6c04dee")
+	)
+	(wire
+		(pts
 			(xy 193.04 146.05) (xy 193.04 158.75)
 		)
 		(stroke
@@ -4707,6 +4994,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 128.27) (xy 55.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbf4b7d-657c-4c8e-a29c-390f5d0501b3")
+	)
+	(wire
+		(pts
 			(xy 144.78 43.18) (xy 92.71 43.18)
 		)
 		(stroke
@@ -4737,6 +5034,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 130.81) (xy 90.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf48035-c469-4ce9-a159-e9e3d8aa21c5")
+	)
+	(wire
+		(pts
 			(xy 139.7 120.65) (xy 146.05 120.65)
 		)
 		(stroke
@@ -4754,6 +5061,16 @@
 			(type default)
 		)
 		(uuid "ff835bc3-c44a-4226-b22f-4fe7d588c436")
+	)
+	(wire
+		(pts
+			(xy 48.26 133.35) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff97538a-51b8-461f-b542-bc63c22af3f4")
 	)
 	(label "CS"
 		(at 242.57 57.15 180)
@@ -5642,6 +5959,98 @@
 		)
 	)
 	(symbol
+		(lib_id "FurryTel:Simple_Addon_v2")
+		(at 71.12 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e95a38-97ba-47dd-8c53-35a2e8ab9943")
+		(property "Reference" "X1"
+			(at 71.12 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Simple_Addon_v2"
+			(at 71.12 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FTbadge:Simple_Addon_v2-BADGE-2x3"
+			(at 66.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98a704d7-82cf-41b6-81f2-ffa2fab3913e")
+		)
+		(pin "3"
+			(uuid "f032547a-472c-43fe-90aa-ba45964aab7f")
+		)
+		(pin "4"
+			(uuid "3e8a6afe-6bd0-465a-832e-62bc841af067")
+		)
+		(pin "1"
+			(uuid "00759a0f-29f5-4870-9b11-b3eef6b13606")
+		)
+		(pin "5"
+			(uuid "b4a9c1e5-f060-495b-9b3a-98b1b9347cc6")
+		)
+		(pin "6"
+			(uuid "33f34830-bdae-46aa-af61-ec2b0af8337e")
+		)
+		(instances
+			(project "badge"
+				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 165.1 68.58 0)
 		(mirror y)
@@ -6282,6 +6691,162 @@
 			(project "badge"
 				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.09 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bcde12e-16e7-460d-b2b7-137d792a974b")
+		(property "Reference" "#PWR09"
+			(at 85.09 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.09 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36562e9b-8ea3-49af-b33f-7b4b53f1ac78")
+		)
+		(instances
+			(project "badge"
+				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 50.8 104.14 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "937f18bf-81da-4aa9-8f69-fd6691ae7555")
+		(property "Reference" "#PWR010"
+			(at 50.8 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 50.8 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 50.8 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5a487a2-d016-4777-bcdf-116d6af70d7b")
+		)
+		(instances
+			(project "badge"
+				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)

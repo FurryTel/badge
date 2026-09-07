@@ -487,7 +487,9 @@
     "pinned_footprint_libs": [
       "FTbadge"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "FurryTel"
+    ]
   },
   "meta": {
     "filename": "badge.kicad_pro",
@@ -693,7 +695,7 @@
         "uuid": "1e376a43-e2df-41cb-8688-d8f95da10731"
       }
     ],
-    "used_designators": "#PWR8,J1",
+    "used_designators": "SW6,X1,#PWR8,J1",
     "variants": []
   },
   "sheets": [

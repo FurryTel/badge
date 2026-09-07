@@ -2994,7 +2994,7 @@
 		(layer "F.Cu")
 		(uuid "58ba1eeb-ee1a-4462-a50e-c092e178beb6")
 		(at 63.323589 27.94)
-		(property "Reference" "REF**"
+		(property "Reference" "LANYARD"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -3046,7 +3046,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd board_only)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -3779,7 +3779,7 @@
 		(layer "F.Cu")
 		(uuid "8442c036-d59e-4334-81f2-2bbcaabd7008")
 		(at 26.67 144.795188)
-		(property "Reference" "REF**"
+		(property "Reference" "FTLOGO"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.Mask")
@@ -3831,7 +3831,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd board_only exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
 			(pts
@@ -9144,15 +9144,6 @@
 		(path "/b3cf28a6-213f-4319-a0c9-1c59740336ed")
 		(sheetname "/")
 		(sheetfile "badge.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "30" "37" "1" "2" "4" "5" "6" "7" "9" "10" "11" "12" "14" "15"
-					"16" "17" "19" "20" "39" "40" "18" "23" "28" "13" "8" "38" "3" "36"
-					"21" "22" "24" "25" "26" "27" "29" "35" "31" "32" "34" "33"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11874,7 +11865,7 @@
 		)
 		(zone
 			(layers "F.Cu" "F.Paste")
-			(uuid "98535fee-97a5-4cbc-8588-48f08533ca11")
+			(uuid "e369a220-ebd9-4a2e-a6a5-000dd8658fcb")
 			(name "Pad Keep Out D3")
 			(hatch full 0.5)
 			(connect_pads
@@ -11914,7 +11905,7 @@
 		)
 		(zone
 			(layers "F.Cu" "F.Paste")
-			(uuid "e369a220-ebd9-4a2e-a6a5-000dd8658fcb")
+			(uuid "98535fee-97a5-4cbc-8588-48f08533ca11")
 			(name "Pad Keep Out D1")
 			(hatch full 0.5)
 			(connect_pads
@@ -11954,7 +11945,7 @@
 		)
 		(zone
 			(layers "F.Cu" "F.Paste")
-			(uuid "6498d3a0-9e7c-4a0a-af5c-1c66c6a041b9")
+			(uuid "43f396f1-a93f-49e2-9ac6-ce0543f2ef15")
 			(name "Pad Keep Out D3")
 			(hatch full 0.5)
 			(connect_pads
@@ -11994,7 +11985,7 @@
 		)
 		(zone
 			(layers "F.Cu" "F.Paste")
-			(uuid "43f396f1-a93f-49e2-9ac6-ce0543f2ef15")
+			(uuid "6498d3a0-9e7c-4a0a-af5c-1c66c6a041b9")
 			(name "Pad Keep Out D1")
 			(hatch full 0.5)
 			(connect_pads
@@ -12174,10 +12165,6 @@
 		)
 		(group ""
 			(uuid "9c568d14-7450-42aa-ba7f-3840ea310c19")
-			(members "182fb076-7a73-40a9-8792-f3c44c90d906" "30480dfc-4ed9-4b33-bbbd-7ee2dbf10ede")
-		)
-		(group ""
-			(uuid "c08521a7-c708-47d0-8568-b27b25240b8e")
 			(members "0411d33e-77aa-45e4-8a90-5b5e99fb055f" "099de2bf-8369-4fc1-a133-8458c0eb42c2"
 				"0a103adc-9088-4843-8afb-7e433f041f15" "0c4934ce-17d6-4436-be9a-570a53d4988a"
 				"1fbdf5dd-a542-4ccd-bad3-0da6e32e8ddd" "21aaf789-d135-4799-920d-0615c954a887"
@@ -12203,6 +12190,10 @@
 		)
 		(group ""
 			(uuid "fd6272ae-4b7b-427e-8348-8ba21a7e2459")
+			(members "182fb076-7a73-40a9-8792-f3c44c90d906" "30480dfc-4ed9-4b33-bbbd-7ee2dbf10ede")
+		)
+		(group ""
+			(uuid "c08521a7-c708-47d0-8568-b27b25240b8e")
 			(members "13aeea67-bd4d-4c6f-8816-98b7827a5a30" "13d995c2-1e2e-407f-aba3-cc990d59728f"
 				"1ce28c5e-9c23-4722-9d14-917e33b50658" "73289d76-fb04-4452-ac8b-c9b60a1dacd4"
 				"767f2fe6-23c8-458d-9c08-4cddef14e225" "82ecac13-2430-49bd-90cf-f9b30d010bec"
@@ -13769,7 +13760,7 @@
 		(layer "Edge.Cuts")
 		(uuid "563b6780-f99e-4504-b8a4-0d05e53d5d25")
 	)
-	(gr_text "FurryTel Badge\nRev. 1 BETA 1"
+	(gr_text "FurryTel Badge\nRev. 1"
 		(at 34.044783 149.571524 0)
 		(layer "F.SilkS")
 		(uuid "7844c344-88f9-4ba6-909f-3e8686e75d65")

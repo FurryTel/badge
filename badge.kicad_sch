@@ -11,6 +11,309 @@
 		(company "Pacific Northwest FurryTel")
 	)
 	(lib_symbols
+		(symbol "Connector:TC2030"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2030"
+				(at 1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tag-Connect’s 6-pins connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Debug plug-of-nails"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TC2030_1_1"
+				(rectangle
+					(start -2.54 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.762 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.302 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1600,7 +1903,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:RaspberryPi_Pico"
+		(symbol "MCU_Module:RaspberryPi_Pico_Debug"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1631,7 +1934,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+			(property "Footprint" "Module:RaspberryPi_Pico_SMD_HandSolder"
 				(at 0 -46.99 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1653,7 +1956,7 @@
 					)
 				)
 			)
-			(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+			(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 				(at 0 -52.07 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1664,7 +1967,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb"
+			(property "ki_keywords" "RP2350A M33 RISC-V Hazard3 usb swd"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1675,7 +1978,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*"
+			(property "ki_fp_filters" "RaspberryPi?Pico?SMD*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1686,7 +1989,7 @@
 					)
 				)
 			)
-			(symbol "RaspberryPi_Pico_0_1"
+			(symbol "RaspberryPi_Pico_Debug_0_1"
 				(rectangle
 					(start -19.05 34.29)
 					(end 19.05 -31.75)
@@ -1759,7 +2062,7 @@
 					)
 				)
 			)
-			(symbol "RaspberryPi_Pico_1_1"
+			(symbol "RaspberryPi_Pico_Debug_1_1"
 				(pin bidirectional line
 					(at -22.86 15.24 0)
 					(length 3.81)
@@ -2631,6 +2934,61 @@
 					)
 					(alternate "VBUS_IN" power_in line)
 				)
+				(pin input line
+					(at -22.86 30.48 0)
+					(length 3.81)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 27.94 0)
+					(length 3.81)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3119,6 +3477,14 @@
 		(color 0 0 0 0)
 		(uuid "f070295a-d4ab-4bcf-ad59-42ed62db7635")
 	)
+	(no_connect
+		(at 109.22 59.69)
+		(uuid "bc002b4a-f61f-4e2d-a90c-0098b9aafde0")
+	)
+	(no_connect
+		(at 96.52 54.61)
+		(uuid "c0adf191-68a1-4a2e-80f8-7f4d01d09f7b")
+	)
 	(bus_entry
 		(at 245.11 59.69)
 		(size -2.54 -2.54)
@@ -3308,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "110911f2-0504-4743-ad36-7a7eb9010230")
+	)
+	(wire
+		(pts
+			(xy 139.7 57.15) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b6a2d3-d7c7-482d-b0e3-d91d0c4b449d")
 	)
 	(wire
 		(pts
@@ -3561,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc2bbec-9e6d-41e4-b92e-b9359bf9343b")
+	)
+	(wire
+		(pts
 			(xy 167.64 168.91) (xy 167.64 170.18)
 		)
 		(stroke
@@ -3661,6 +4047,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f98e9a9-ca30-4b0f-a0b1-fda060b5a543")
+	)
+	(wire
+		(pts
 			(xy 233.68 74.93) (xy 233.68 69.85)
 		)
 		(stroke
@@ -3698,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "737c505a-83af-4287-875f-f7317ee147f6")
+	)
+	(wire
+		(pts
+			(xy 92.71 43.18) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75af1688-96ee-4a6b-8338-c406b373612a")
 	)
 	(wire
 		(pts
@@ -3841,6 +4247,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 57.15) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a1a523-6091-49ec-81ef-68d0bd0c2448")
+	)
+	(wire
+		(pts
 			(xy 229.87 72.39) (xy 231.14 72.39)
 		)
 		(stroke
@@ -3981,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 110.49) (xy 144.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1057d5-9bd6-4c3c-a25d-7a18172d7fae")
+	)
+	(wire
+		(pts
 			(xy 78.74 153.67) (xy 78.74 157.48)
 		)
 		(stroke
@@ -4041,6 +4467,26 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 54.61) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9e4d38-3a32-4819-9eba-96b0b14f402d")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e335f828-b64a-44a0-806d-a9acca1573d9")
+	)
+	(wire
+		(pts
 			(xy 172.72 52.07) (xy 176.53 52.07)
 		)
 		(stroke
@@ -4058,6 +4504,16 @@
 			(type default)
 		)
 		(uuid "e6be660a-8ccf-4d8e-89b1-2ecf5217e14a")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7007f31-2b89-4190-be7e-b664cd877af6")
 	)
 	(wire
 		(pts
@@ -4088,6 +4544,16 @@
 			(type default)
 		)
 		(uuid "ea488df4-4aec-4e6b-9f0a-dd4cc707cbd8")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 92.71 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fb230d-1a22-47d4-b232-52079f1b71cd")
 	)
 	(wire
 		(pts
@@ -4316,6 +4782,98 @@
 			(project "badge"
 				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TC2030")
+		(at 101.6 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1176204f-829e-42e5-944e-1539a29df7f7")
+		(property "Reference" "J1"
+			(at 102.87 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2030"
+			(at 102.87 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FTbadge:Paw-Connect_RevB_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect’s 6-pins connector"
+			(at 101.6 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "6862c3ef-a9c4-46b2-8510-1d9d766ceaaf")
+		)
+		(pin "1"
+			(uuid "eb3bf10f-83cb-44cc-a7a8-24f735a865b6")
+		)
+		(pin "2"
+			(uuid "75b4b685-8659-4527-8fe1-b815a444cd65")
+		)
+		(pin "3"
+			(uuid "58f442b1-f180-42dc-b134-f6f836678123")
+		)
+		(pin "6"
+			(uuid "890d6bec-4b87-4a36-9ada-226754c3e81b")
+		)
+		(pin "4"
+			(uuid "54e3e09a-9271-4d8a-ae31-e19a544ef19d")
+		)
+		(instances
+			(project "badge"
+				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5909,7 +6467,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_Module:RaspberryPi_Pico")
+		(lib_id "MCU_Module:RaspberryPi_Pico_Debug")
 		(at 116.84 133.35 0)
 		(mirror y)
 		(unit 1)
@@ -5942,7 +6500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_SMD"
+		(property "Footprint" "Module:RaspberryPi_Pico_SMD_HandSolder"
 			(at 116.84 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +6522,7 @@
 				)
 			)
 		)
-		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+		(property "Description" "Versatile and inexpensive microcontroller module (with debug pins) powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 116.84 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6095,10 +6653,97 @@
 		(pin "7"
 			(uuid "ab388ed8-a283-4aec-9126-7812979824e4")
 		)
+		(pin "D1"
+			(uuid "2eff4ff0-76c4-4d61-aab0-f050d074223c")
+		)
+		(pin "D2"
+			(uuid "51aa0ed5-b433-4753-a17d-1fd045a70a81")
+		)
+		(pin "D3"
+			(uuid "641bc4a7-a912-4526-8b0f-54cf1187cf4d")
+		)
 		(instances
 			(project "badge"
 				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b65369-9180-40f3-8c58-691ab729a7d5")
+		(property "Reference" "#PWR08"
+			(at 96.52 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b17c599-43fc-4669-8bb6-16552753f981")
+		)
+		(instances
+			(project "badge"
+				(path "/1e376a43-e2df-41cb-8688-d8f95da10731"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)

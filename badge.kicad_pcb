@@ -12388,10 +12388,10 @@
 		(at 51.500001 94.1451)
 		(tags "NHD-C12832A1Z-FSRGB-FBW-3V ")
 		(property "Reference" "U1"
-			(at 11.999999 0 0)
+			(at 11.999999 -1.6451 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "cd6fb43e-142a-4b9d-9752-51dcefa2c8b4")
+			(uuid "7905016e-fbc8-44d3-8744-e4f15bd6d5f0")
 			(effects
 				(font
 					(size 1 1)
@@ -12403,7 +12403,7 @@
 			(at 11.999999 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e233ddb4-346a-4a70-a273-137e0a79a7bc")
+			(uuid "8f1f3435-4eab-45e6-9b1d-eb79dc40de71")
 			(effects
 				(font
 					(size 1 1)
@@ -12415,7 +12415,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a07b9af-c69c-445b-a7d5-90c4cb664946")
+			(uuid "34e45d14-5414-4564-82cb-8050d4bd8bf0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,7 +12426,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b41d47a-7fec-4c36-b814-8abf6d73c428")
+			(uuid "418397fb-7a7b-4bd9-aabe-5661af5054b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,14 +12437,6 @@
 		(path "/ba84a9d8-b940-42c8-a83b-3096707d1b36")
 		(sheetname "/")
 		(sheetfile "badge.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "K(B)" "K(G)" "K(R)" "A"
-					"17" "16" "15" "14" "13" "12" "11"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12696,46 +12688,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "72ca8333-6546-4ab4-8c89-3132267d7449")
-		)
-		(fp_line
-			(start -5.896903 -1.901952)
-			(end -4.703103 -1.901952)
-			(stroke
-				(width 0.8128)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a8191951-b04e-4ccd-b4c0-192c167481ac")
-		)
-		(fp_line
-			(start -2.896898 -1.902)
-			(end -1.703098 -1.902)
-			(stroke
-				(width 0.8128)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6c1395c8-93a6-4d7e-b9ca-bfb672a376df")
-		)
-		(fp_line
-			(start 25.703095 -1.902)
-			(end 26.896895 -1.902)
-			(stroke
-				(width 0.8128)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "c1eac1bd-805b-466b-98a2-49050ed1fd95")
-		)
-		(fp_line
-			(start 28.703038 -1.901952)
-			(end 29.896838 -1.901952)
-			(stroke
-				(width 0.8128)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a3b36113-f718-4219-ac00-8c9909c4cead")
 		)
 		(fp_line
 			(start -9.107401 -24.2189)
@@ -13055,37 +13007,45 @@
 			(pintype "unspecified")
 			(uuid "7eed45a7-c16f-4588-a98b-47b627f526e6")
 		)
-		(pad "A" smd oval
+		(pad "A" thru_hole oval
 			(at -5.300003 -1.901952)
-			(size 2.6924 1.4986)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(size 2.7 1.5)
+			(drill oval 2 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "unconnected-(U1-LED+-PadA)")
 			(pinfunction "LED+_A")
 			(pintype "power_in")
 			(uuid "0590c345-121b-47c7-b177-29140ca1483d")
 		)
-		(pad "K(B)" smd oval
+		(pad "K(B)" thru_hole oval
 			(at 29.299938 -1.901952)
-			(size 2.6924 1.4986)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(size 2.7 1.5)
+			(drill oval 2 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "unconnected-(U1-(B)LED--PadK(B))")
 			(pinfunction "(B)LED-_K(B)")
 			(pintype "power_out")
 			(uuid "7ea4ef02-4449-4ec9-8f0f-59c0c8b4ba40")
 		)
-		(pad "K(G)" smd oval
+		(pad "K(G)" thru_hole oval
 			(at 26.299995 -1.902)
-			(size 2.6924 1.4986)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(size 2.7 1.5)
+			(drill oval 2 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "unconnected-(U1-(G)LED--PadK(G))")
 			(pinfunction "(G)LED-_K(G)")
 			(pintype "power_out")
 			(uuid "eaa9b9f9-135f-4fe1-b181-47bdbede9d52")
 		)
-		(pad "K(R)" smd oval
+		(pad "K(R)" thru_hole oval
 			(at -2.299998 -1.902)
-			(size 2.6924 1.4986)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(size 2.7 1.5)
+			(drill oval 2 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "unconnected-(U1-(R)LED--PadK(R))")
 			(pinfunction "(R)LED-_K(R)")
 			(pintype "power_out")

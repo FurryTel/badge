@@ -1,0 +1,179 @@
+(footprint "BatteryHolder_Keystone_2479_3xAAA_NoHole"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Battery holder, Keystone 2479, battery type 3xAAA, http://www.keyelco.com/product-pdf.cfm?p=1041")
+	(tags "horizontal triple")
+	(property "Reference" "REF**"
+		(at 23.66 -7.95 0)
+		(layer "F.SilkS")
+		(uuid "a8174701-640e-43b9-82f5-016508586c1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_Keystone_2479_3xAAA_NoHole"
+		(at 23.66 31.95 0)
+		(layer "F.Fab")
+		(uuid "e1382bf1-2055-46b9-aac3-31fd8703bcc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10021fa7-cb28-4815-990d-2ac4aee1de5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b746eac-f535-4b02-98e9-a76929ec1bfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "battery"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "43e265bd-3568-4a56-8683-f4052ad216bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.95 -7.11)
+		(end 50.27 -7.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35325ad6-a6c0-4d92-9cc3-54cdc058e39b")
+	)
+	(fp_line
+		(start -2.95 31.11)
+		(end -2.95 -7.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76a5196a-811b-4025-bd71-a2a52724bd05")
+	)
+	(fp_line
+		(start 50.27 -7.11)
+		(end 50.27 31.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16306ce8-27f2-468b-8628-29ba21fb95a9")
+	)
+	(fp_line
+		(start 50.27 31.11)
+		(end -2.95 31.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bc381f8-24af-409d-a49a-a35cd5921bba")
+	)
+	(fp_rect
+		(start -3.09 -7.25)
+		(end 50.41 31.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "75be862a-2807-4fd7-b3ae-942de775dbc1")
+	)
+	(fp_rect
+		(start -2.59 -6.75)
+		(end 49.91 30.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e2b70020-89d0-450a-bccc-ee20e8e5676d")
+	)
+	(fp_text user "+"
+		(at -4.5 0.05 0)
+		(layer "F.SilkS")
+		(uuid "09a8220f-3a12-41e6-9edc-302553b904a8")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 23.66 12 0)
+		(layer "F.Fab")
+		(uuid "6480ec07-a31b-4d29-ba9b-cd5cd96b92fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.083333)
+		(uuid "53e81bfa-7282-45ef-843e-771167ca8070")
+	)
+	(pad "2" thru_hole circle
+		(at 0 12.7)
+		(size 3 3)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a33fe37-4e94-477f-982f-ee7f898b6c61")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2479_3xAAA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

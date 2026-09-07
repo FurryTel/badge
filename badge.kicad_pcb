@@ -1651,6 +1651,7 @@
 		(property "Reference" "SW3"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "514810da-7b3f-40fc-b5b9-5415789776e8")
 			(effects
 				(font
@@ -2206,6 +2207,7 @@
 		(property "Reference" "SW2"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9865955d-9309-4263-885e-9f6dbbdd0f2c")
 			(effects
 				(font
@@ -5584,6 +5586,7 @@
 		(property "Reference" "SW5"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fbd18fc3-91df-4940-89be-b946e0c0e627")
 			(effects
 				(font
@@ -5938,6 +5941,7 @@
 		(property "Reference" "SW4"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "96b35f39-725a-4407-994f-b96a12b94bd7")
 			(effects
 				(font
@@ -7655,6 +7659,7 @@
 		(property "Reference" "SW1"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e0874df7-0aed-4a72-9b60-e311b61a0693")
 			(effects
 				(font
@@ -14133,6 +14138,18 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Designed by SplitPixl,\nAssembled by you!"
+		(at 63.5 151.327 0)
+		(layer "B.SilkS")
+		(uuid "64976c1b-b4e3-4cad-a2c0-43075f3b01fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(segment

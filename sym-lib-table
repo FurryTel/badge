@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "FurryTel") (type "KiCad") (uri "${KIPRJMOD}/FurryTel.kicad_sym") (options "") (descr ""))
+)

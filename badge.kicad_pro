@@ -484,9 +484,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "FTbadge"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -693,7 +691,7 @@
         "uuid": "1e376a43-e2df-41cb-8688-d8f95da10731"
       }
     ],
-    "used_designators": "#PWR2,#PWR4-7,R1-2,R6,C6-8",
+    "used_designators": "U1,SW1-5,BT1,R1-5,C1-8,D1-4,A1,#PWR1-3,J1",
     "variants": []
   },
   "sheets": [

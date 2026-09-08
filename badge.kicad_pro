@@ -70,7 +70,32 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|76351000|57150000|8710bc9e-25f0-4685-8230-ea09cc2f9286|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ],
+        [
+          "items_not_allowed|77951000|54610000|a373c83a-76a2-4316-a068-8f94894863e3|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ],
+        [
+          "items_not_allowed|77951000|59690000|2807ad17-7ca0-452f-9752-3b6b4933e536|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ],
+        [
+          "items_not_allowed|78000000|54610000|6345be8e-2e80-41ed-bfa4-f4b5f6e09dd2|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ],
+        [
+          "items_not_allowed|78000000|57150000|ee693456-a081-46ba-a651-97536ccf05d5|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ],
+        [
+          "items_not_allowed|78000000|59690000|e2cdcf85-c6ec-465c-97d4-ca43ba4021f5|00000000-0000-0000-0000-000000000000",
+          "this keepout is aspirational at best for a Pico W"
+        ]
+      ],
       "meta": {
         "version": 2
       },

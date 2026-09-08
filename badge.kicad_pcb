@@ -4920,12 +4920,6 @@
 		(path "/14473b6e-b451-4373-86b0-71551776d26e")
 		(sheetname "/")
 		(sheetfile "badge.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5063,19 +5057,8 @@
 		)
 		(fp_text user "K"
 			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "20dae4da-7cb4-4bec-98e8-4da58ea65985")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
 			(layer "F.Fab")
-			(uuid "eecd7676-305c-4ee7-93b3-ac556a439e67")
+			(uuid "20dae4da-7cb4-4bec-98e8-4da58ea65985")
 			(effects
 				(font
 					(size 1 1)
@@ -9964,7 +9947,8 @@
 			(at 11.7475 24.765 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8cb069fa-ece6-402f-9f18-537dc2b48f5b")
+			(hide yes)
+			(uuid "8372965e-59cf-4489-8c19-3892d3ec8417")
 			(effects
 				(font
 					(size 1 1)
@@ -9977,7 +9961,7 @@
 			(at 0 27.94 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "9459129b-dbad-414c-9765-759d9cfb39b9")
+			(uuid "27674345-e1aa-44bf-8987-663aa75446af")
 			(effects
 				(font
 					(size 1 1)
@@ -9989,7 +9973,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66b3fba4-0cd6-4caa-8078-21f56da18973")
+			(uuid "3b2ec74e-9bcb-4087-8820-1344dd179f62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +9985,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4790862d-0589-4653-9fa0-c294c614b1eb")
+			(uuid "983c6cc9-7dca-4fd1-a293-a095e50d4fcf")
 			(effects
 				(font
 					(size 1.27 1.27)

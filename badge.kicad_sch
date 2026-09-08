@@ -4034,7 +4034,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 36.83 85.09)
+			(xy 36.83 101.6) (xy 36.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4344,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 121.92 95.25)
+			(xy 121.92 82.55) (xy 121.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4564,7 +4564,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 85.09) (xy 64.77 85.09)
+			(xy 36.83 82.55) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4824,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 85.09) (xy 121.92 85.09)
+			(xy 72.39 82.55) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5398,7 +5398,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 68.58 85.09 180)
+		(at 68.58 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5409,7 +5409,7 @@
 		(fields_autoplaced yes)
 		(uuid "14473b6e-b451-4373-86b0-71551776d26e")
 		(property "Reference" "D1"
-			(at 68.8975 78.74 0)
+			(at 68.8975 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5419,7 +5419,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 68.8975 81.28 0)
+			(at 68.8975 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5429,7 +5429,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
-			(at 68.58 85.09 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 85.09 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +5451,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 68.58 85.09 0)
+			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

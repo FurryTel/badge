@@ -1468,7 +1468,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120 (LED)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "d24a278e-b26f-446f-92bf-d7acbe33f6ef")
@@ -2797,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120 (LED)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "9a670464-c0e8-4474-b84d-a9c0c2e5d507")
@@ -4117,7 +4117,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120 (backlight)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "e997cd03-f4af-4a49-aba4-63f4f0cc6a98")
@@ -4309,7 +4309,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120 (backlight)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "2eb593c3-d8d3-4e3a-81fb-8d37b0bb65ee")
@@ -13631,7 +13631,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "120 (backlight)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "ceb58c4a-e9e6-4875-8c72-3b23b89fa1a8")
@@ -14024,7 +14024,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "120 (LED)"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "d258d1b1-398e-4635-8b8c-aa458a4ad216")
